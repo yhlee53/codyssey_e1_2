@@ -62,11 +62,12 @@ python main.py
 
 ```
 e1-2/
+├── docs/
+│   └── README.md        # 이 파일
 ├── main.py              # 프로그램의 메인 파일
 ├── quiz.py              # Quiz 클래스 (개별 퀴즈 관리)
 ├── quiz_game.py         # QuizGame 클래스 (게임 로직 및 저장소 관리)
 ├── state.json           # 퀴즈 및 점수 데이터 저장 파일 (자동 생성)
-├── README.md            # 이 파일
 └── .gitignore           # Git에서 추적하지 않을 파일 목록
 ```
 
