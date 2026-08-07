@@ -11,9 +11,10 @@ class Quiz:
         question (str): 퀴즈 질문
         choices (list): 선택지 리스트
         answer (int): 정답의 인덱스
+        hint (str): 힌트 텍스트
     """
     
-    def __init__(self, question, choices, answer):
+    def __init__(self, question, choices, answer, hint=""):
         """
         Quiz 인스턴스 초기화
         
@@ -21,10 +22,12 @@ class Quiz:
             question (str): 퀴즈 질문
             choices (list): 선택지 리스트 (4개)
             answer (int): 정답의 인덱스 (0~3)
+            hint (str): 힌트 텍스트 (선택)
         """
         self.question = question
         self.choices = choices
         self.answer = answer
+        self.hint = hint
     
     def display(self):
         """퀴즈를 보기 좋게 표시"""
@@ -47,13 +50,18 @@ class Quiz:
     def get_correct_answer_text(self):
         """정답을 텍스트로 반환"""
         return self.choices[self.answer]
+
+    def get_hint_text(self):
+        """힌트 텍스트를 반환"""
+        return self.hint
     
     def to_dict(self):
         """퀴즈를 딕셔너리로 변환 (JSON 저장용)"""
         return {
             "question": self.question,
             "choices": self.choices,
-            "answer": self.answer
+            "answer": self.answer,
+            "hint": self.hint
         }
     
     @staticmethod
@@ -62,5 +70,6 @@ class Quiz:
         return Quiz(
             data["question"],
             data["choices"],
-            data["answer"]
+            data["answer"],
+            data.get("hint", "")
         )
