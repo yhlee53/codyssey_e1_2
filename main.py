@@ -453,7 +453,7 @@ def main():
         if handler is None:
             print("\n데이터를 저장하고 있습니다...")
             game.save_data()
-            print("👋 프로그램을 종료합니다. 안녕히 가세요!")
+            print("👋 프로그램을 종료합니다. 안녕히 가세요!\n\n")
             break
 
         # 실행
