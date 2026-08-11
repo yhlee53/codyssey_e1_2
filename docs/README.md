@@ -177,7 +177,6 @@ e1-2/
   - `select_bonus_tasks()`: 보너스 과제 선택/해제
 - 종료 시 `game.save_data()`로 데이터를 안전하게 저장합니다.
 
----
 
 ## quiz_game.py 요약
 
@@ -191,7 +190,6 @@ e1-2/
 - `get_all_quizzes()`, `get_best_score()`, `get_history()`, `get_selected_bonus()`, `quiz_count()` 등의 조회 메서드를 제공합니다.
 - `toggle_bonus_task()`로 선택된 보너스 과제를 켜고 끌 수 있습니다.
 
----
 
 ## quiz.py 요약
 
