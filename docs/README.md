@@ -208,3 +208,20 @@ e1-2/
 - ✅ Git 기본 명령어(init, add, commit, push, pull)
 - ✅ 브랜치 생성 및 병합
 - ✅ 원격 저장소 관리
+
+---
+
+## Git 이력
+```text
+* 686f38e (HEAD -> main, origin/b1lyh, b1lyh) Git & 버전 관리 리드미에 추가
+* c267ca5 보너스 과제 번호 부여
+* b5a2f34 (origin/main, origin/HEAD) README에 소스 기능 추가
+* dc43c1e 보너스과제 추가
+*   bd2c83a Merge pull request #1 from yhlee53/brLYH
+|\  
+| * 9942078 (origin/brLYH) 보너스 기능 구현
+* | 71d6ef0 Fix formatting of quiz deletion option in README
+* | 629555d 초기저장
+|/  
+* c44a352 초기
+```
