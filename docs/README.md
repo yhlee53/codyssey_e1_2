@@ -205,6 +205,6 @@ e1-2/
 - `to_dict()` / `from_dict()`로 JSON 저장용 딕셔너리 변환을 지원합니다。
 
 # Git & 버전 관리
-✅ Git 기본 명령어(init, add, commit, push, pull)
-✅ 브랜치 생성 및 병합
-✅ 원격 저장소 관리
+- ✅ Git 기본 명령어(init, add, commit, push, pull)
+- ✅ 브랜치 생성 및 병합
+- ✅ 원격 저장소 관리
