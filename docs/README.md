@@ -222,4 +222,13 @@ e1-2/
 * | 629555d 초기저장
 |/  
 * c44a352 초기
+
+% git clone https://github.com/yhlee53/codyssey_e1_2.git
+'codyssey_e1_2'에 복제합니다...
+remote: Enumerating objects: 52, done.
+remote: Counting objects: 100% (52/52), done.
+remote: Compressing objects: 100% (38/38), done.
+remote: Total 52 (delta 22), reused 41 (delta 14), pack-reused 0 (from 0)
+오브젝트를 받는 중: 100% (52/52), 24.38 KiB | 12.19 MiB/s, 완료.
+델타를 알아내는 중: 100% (22/22), 완료.
 ```
